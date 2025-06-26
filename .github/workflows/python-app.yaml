@@ -28,4 +28,4 @@ jobs:
         run: echo "the secret is ${{secrets.MY_SECRET}}"
 
       - name: lint with flake8
-        run: flake8 .
+        run: flake8 ./
