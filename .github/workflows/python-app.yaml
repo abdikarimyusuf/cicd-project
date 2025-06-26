@@ -23,3 +23,6 @@ jobs:
 
       - name: Run tests
         run: python test_app.py
+
+      - name: my secret
+        run: echo "the secret is ${{secrets.MY_SECRET}}"
